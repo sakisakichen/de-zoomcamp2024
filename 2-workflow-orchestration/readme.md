@@ -39,7 +39,8 @@ Mage's main components are projects, pipelines, and blocks. Within an instance o
         - tests that run on the output dataframe of the block
         - you can have zero to many assertions
       
-
-
+```cli
+git clone https://github.com/mage-ai/mage-zoomcamp.git mage-zoomcamp
+```
 
 
