@@ -415,7 +415,10 @@ If using the GOOGLE_SERVICE_ACC_KEY_FILEPATH, then you can delete the first bloc
 JSON KEY FILEPATH
 The docker-compose.yaml specifies that the mage project directory will be mounted to the /home/src/ folder in the container. The json key file can therefor be reached at `"/home/src/key_file_name.json"`. Once this is specified, Mage will know where to look for the credentials. When any block with a google service is executed, mage will use that service account key to execute the cell. 
 <br>
-<br>
+<be>
+
+![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/f3d9654a-23d1-46ef-befb-07d83f2a5097)
+
 
 `Step 5` **Test the Authentication** <br>
 - Go back to the test_config pipeline
