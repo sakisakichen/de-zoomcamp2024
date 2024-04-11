@@ -303,6 +303,7 @@ Modify the transformation block template as follows:
 - ***Note:*** You can add multiple assertions. Every function decorated with a test decorator will be passed the dataframe as input and run tests. 
 
 ```python
+@transformer
 def transform(data, *args, **kwargs):
     # PRINT COUNTS OF RECORDS WITH 
     print(f"Preprocessing: rows with zero passengers:{data['passenger_count'].isin([0]).sum()}")
