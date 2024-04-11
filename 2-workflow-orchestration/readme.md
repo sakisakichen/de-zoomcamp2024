@@ -1,5 +1,5 @@
 ## Week 2: Workflow Orchestration
-
+------------------------------------------------------------------------------------------------------------------------
 ### WHAT IS ORCHESTRATION
 Orchestration is the process of dependency management, facilitated through automation.
 A large part of data engineering is extracting, transforming, and loading data between multiple sources. An engineer's goal is to automate as many processes as possible. A data orchestrator helps in this regard by managing scheduling, triggering, monitoring, and resource allocation for DE workflows.
@@ -11,6 +11,25 @@ Every workflow requires sequential steps:
 - Steps = tasks = blocks (mage lingo)
 - Workflows = DAGs (directed acyclic graphs) or Pipeline
 
+**FEATURES OF A GOOD ORCHESTRATOR**<br>
+There is no perfect solution. You need to find the right solution for your use case. 
+ 
+A good orchestrator handles
+- workflow management
+- automation
+- error handling - conditional logic, branching, retry
+- data recovery
+- monitoring and alerting
+- resource optimization
+- observability 
+- debugging
+- compliance and auditing
+- and prioritizes developer experience and facilitates seamless development
+    - flow state
+    - feedback loops - ability to iterate quickly
+    - cognitive load 
+
+-----------------------------------------------------------------------------------------------------------------------------
 ### Mage
 #### Mage is an open-source pipeline tool for orchestrating, transforming, and integrating data 
 
