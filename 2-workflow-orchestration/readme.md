@@ -447,6 +447,7 @@ Confirm that we can read and write files to Google Cloud Storage
 <hr/>
 
 ## LOAD DATA TO GCS
+#### Referencc Youtube [DE Zoomcamp 2.2.4 - ETL: API to GCS](https://www.youtube.com/watch?v=w0XmcASRUnc&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=24)
 In this module we will write data to Google Cloud Storage. Previously we wrote data to Postgres, an OLTP database (structured row oriented vs column oriented). Now we are going to write data to Google Cloud Storage which is just a file system in the cloud. Often data is written to cloud storage destinations because it is relatively inexpensive and it can also accept semi structured data better than a relationsal database. 
 
 From there, the workflow would typically include staging, cleaning, transforming, and writing to an analytical source or using a data lake solution. 
