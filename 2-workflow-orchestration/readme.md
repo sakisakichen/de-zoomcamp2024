@@ -247,7 +247,7 @@ Modify the template as follows:
 - Data Types - declairing data types is recommended but not required
     - saves space in memory 
     - implicit assertion - load will fail if the data types don't match what has been defined.
-      对上下文进行推断或解读
+        對上下文進行推断或解讀
 - Date Columns - Create a list of datetime columns to be parsed by read_csv as dates
 - Return the CSV 
 
