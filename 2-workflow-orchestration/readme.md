@@ -3,7 +3,7 @@
 ### WHAT IS ORCHESTRATION
 Orchestration is the process of dependency management, facilitated through automation.
 A large part of data engineering is extracting, transforming, and loading data between multiple sources. An engineer's goal is to automate as many processes as possible. A data orchestrator helps in this regard by managing scheduling, triggering, monitoring, and resource allocation for DE workflows.
-"orchestration" 通常指的是自动化和协调多个软件应用程序或服务之间的部署、管理和互动的过程。
+"orchestration" 通常是指自動化和協調多個軟體應用程式或服務之間的部署、管理和互動的過程。
 
 
 Every workflow requires sequential steps:
@@ -36,6 +36,8 @@ A good orchestrator handles
 It's goal is to provide a good developer experience with the ability to quickly iterate on pipelines. 
 
 Mage's main components are projects, pipelines, and blocks. Within an instance of Mage you can have many projects, each project can have many pipelines, and a pipeline is made up of one or more blocks. Blocks are written in SQL, Python, or R. They are mostly used for loading, exporting, and transforming data but can be customized to do whatever you want.
+
+<img src="https://github.com/inner-outer-space/de-zoomcamp-2024/assets/12296455/3b652643-f7ce-44c3-b8d5-80b520e2ea60" width="350" height="auto">
 
 #### CORE COMPONENTS ###
 **Projects**
