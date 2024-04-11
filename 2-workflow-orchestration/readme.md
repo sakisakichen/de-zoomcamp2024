@@ -542,6 +542,7 @@ The files can be found in the ny_taxi folder in the bucket. <br>
 <hr/>
 
 ## LOAD DATA FROM GCS TO BIGQUERY 
+#### Referencc Youtube [DE Zoomcamp 2.2.5 - ETL: GCS to BigQuery ]( https://www.youtube.com/watch?v=JKp_uzM-XsM&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=25)
 In this module, we will take the data that we wrote to Google Cloud Storage and write it to BigQuery, an OLAP database. This mirrors a traditional data workflow. 
 
 #### LOAD THE DATA
