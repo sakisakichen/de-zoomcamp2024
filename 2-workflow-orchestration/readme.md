@@ -106,7 +106,7 @@ Mage is accessed through a web browser at the port specified in the .yml file
 <br>
 
 ```cli
-localhost:5789
+localhost:6789
 ```
 <br>
 <br>
