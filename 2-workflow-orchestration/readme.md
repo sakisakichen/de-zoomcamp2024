@@ -1,3 +1,5 @@
+This Notes is from [link](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/2-workflow-orchestration/readme.md)
+
 ## Week 2: Workflow Orchestration
 ------------------------------------------------------------------------------------------------------------------------
 ### WHAT IS ORCHESTRATION
@@ -225,7 +227,7 @@ SELECT 1;
 <br>
 <hr/>
 
-## LOAD DATA TO POSTGRES
+## LOAD DATA TO POSTGRES USE API
 In this section we import the NY Taxi data compressed CSV file, transform the data, and load it to Postgres. 
 <br>
 <br>
