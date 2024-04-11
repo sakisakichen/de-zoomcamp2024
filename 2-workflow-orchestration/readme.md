@@ -3,6 +3,8 @@
 ### WHAT IS ORCHESTRATION
 Orchestration is the process of dependency management, facilitated through automation.
 A large part of data engineering is extracting, transforming, and loading data between multiple sources. An engineer's goal is to automate as many processes as possible. A data orchestrator helps in this regard by managing scheduling, triggering, monitoring, and resource allocation for DE workflows.
+"orchestration" 通常指的是自动化和协调多个软件应用程序或服务之间的部署、管理和互动的过程。
+
 
 Every workflow requires sequential steps:
 
