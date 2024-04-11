@@ -356,6 +356,7 @@ Add another SQL Data Loader block and query the DB to confirm that the data load
 <hr/>
 
 ## CONFIGURE GOOGLE CLOUD PLATFORM 
+#### Referencc Youtube [DE Zoomcamp 2.2.4 a- Configuring GCP](https://www.youtube.com/watch?v=00LP360iYvE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=23)
 In this module we are going to set up google cloud to allow Mage to read and write data to both google cloud storage and bigquery. 
 
 `Step 1` **Add a Google Cloud Bucket** <br>
