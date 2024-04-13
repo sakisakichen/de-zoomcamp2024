@@ -1,21 +1,10 @@
+## The Notes is from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/3a-data-warehouse/readme.md)
+
+
 <div align="center">
     
 # DATA WAREHOUSE
-(*for Linux*)
-<hr />
 
-[OLAP vs OLTP](#olap-vs-oltp) • 
-[Data Warehouse](#data-warehouse) •
-[BigQuery](#bigquery) • <br>
-[Partitions & Clustering](#partitioning-and-clustering) • 
-[Best Practices](#best-practices) •
-[Internals](#internals) •
-[ML in BQ](#ml-in-bigquery) •
-[Deploying an ML Model](#deploying-an-ml-model) 
-</div>
-
-<hr />
-<br>
 
 ## OLAP vs OLTP 
 
