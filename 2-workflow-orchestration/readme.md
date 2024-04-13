@@ -572,6 +572,7 @@ def load_from_google_cloud_storage(*args, **kwargs):
 <br>
 
 #### TRANSFORM THE DATA
+
 The dataset is now loaded. The next step is to transfom it. 
 1. Add a `Python > Generic(no Template) Transformer` and rename it to 'transformed_staged_data'
 2. Add a transformation that standardizes the column names to lower case with no spaces.
@@ -620,12 +621,13 @@ You can trigger workflows:
 <hr/>
 
 ## Parameterized Execution
+#### Referencc Youtube [DE Zoomcamp 2.2.6 - Parameterized Execution ](https://www.youtube.com/watch?v=H0hWjWxB-rg&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=26)
 This module will cover loading partial datasets or loading datasets dependent on a parameter. The execution of the DAG or pipeline is dependent on a variable being supplied to the DAG. Mage has many different types of variables (run time, global etc). 
 
 In this example, we will use the taxi data set and create a different file for each day that the job is being run. This is useful if you want to write to output files on a daily basis. Note: This particular example can also be done using Pyarrow  
 
 `Step 1` Right click on the load_to_gcs pipeline and clone it<br>
-Note: Blocks are global. Any edits made to blocks in this pipeline, will be reflected anywhere they are used. 
+**Note: Blocks are global. Any edits made to blocks in this pipeline, will be reflected anywhere they are used. **
 
 `Step 2` Delete the Partitioned File Data Exporter<br> 
 This only deletes the block from the project. It does not delete it entirely. 
