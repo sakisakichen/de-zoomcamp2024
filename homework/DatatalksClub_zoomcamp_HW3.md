@@ -62,8 +62,9 @@ GCP Bucket
 ### Question 7. It is best practice in Big Query to always cluster your data
 False
 
-
-
+### Question 8.Write a SELECT count(*) query FROM the materialized table you created. How many bytes does it estimate will be read? Why?
+0 Bytes , its not reading the data, its counts the metadata,
+for the external table, its storages in Bucket, not in big query, so no metadata
 
 
 
