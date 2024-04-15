@@ -409,8 +409,8 @@ version: 2
 
 sources: 
   - name: staging 
-    database: aerobic-badge-408610
-    schema: all_ny_data
+    database: de-project-datatalksclub
+    schema: trips_data_all
 
     tables: 
       - name: green_tripdata
