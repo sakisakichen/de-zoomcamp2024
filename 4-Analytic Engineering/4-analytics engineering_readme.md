@@ -657,7 +657,7 @@ Create another model in the core folder `fact_trips.sql`
 
 ## TESTING AND DOCUMENTATION
 TESTS
-- Data tests are assertions that you make about your models and other resources in your dnt project. 
+- Data tests are assertions that you make about your models and other resources in your dbt project. 
 - Tests in dbt are essentially sql queries that select for the failing records. 
 - Tests can be defined per column in the schema.yml file
 - dbt provides basic tests to check if the column values are
