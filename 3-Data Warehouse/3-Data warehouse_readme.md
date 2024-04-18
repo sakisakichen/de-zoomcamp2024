@@ -87,11 +87,11 @@ We have already imported the New York taxi CSV files into GCS. Now we will creat
 The format of the external table name in BQ = `PROJECT_ID.DATASET.EXTERNAL_TABLE_NAME`
 
 ```sql 
--- Creating external table referring to gcs path
-CREATE OR REPLACE EXTERNAL TABLE `taxi-rides-ny.nytaxi.external_yellow_tripdata`
+Creating external table referring to gcs path
+CREATE OR REPLACE EXTERNAL TABLE de-project-datatalksclub.ny_taxi.external_green_tripdata
 OPTIONS (
-  format = 'CSV',
-  uris = ['gs://nyc-tl-data/trip data/yellow_tripdata_2019-*.csv', 'gs://nyc-tl-data/trip data/yellow_tripdata_2020-*.csv']
+   format = 'PARQUET',
+   uris = ['gs://mage-zoomcamp-saki-001/2022_greentaxi_parquet/*']
 );
 ```
 <br>
