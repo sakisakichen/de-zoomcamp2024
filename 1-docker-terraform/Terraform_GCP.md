@@ -281,26 +281,16 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/b
 <summary>variable.tf</summary> 
 	
 ```terraform
-
-variable "gcp_storage_location" {
+variable "location" {
   description = "Location for GCP bucket"
-  default     = "EU"
+  default     = "US"
 }
 
-variable project {
-  description = "Project"
-  default     = "aerobic-badge-408610"
-}
 
-variable "region" {
-  description = "Region"
-  default     = "europe-west1"
-  
-}
 
-variable "bq_dataset_name" {
-  description = "My BigQuery dataset"
-  default     = "taxi_dataset"
+variable "bq_dataset_name"{
+    description = "My BigQuery Dataset Name"
+    default     = "demo_dataset"
 }
 
 variable "gcp_storage_class" {
@@ -308,9 +298,10 @@ variable "gcp_storage_class" {
   default     = "STANDARD"
 }
 
+
 variable "gcs_bucket_name" {
   description = "Name for GCP bucket"
-  default     = "aerobic-badge-408610-taxi-bucket"
+  default     = "dulcet-bastion-419415-terra-bucket"
 }
 ```
 </details>
