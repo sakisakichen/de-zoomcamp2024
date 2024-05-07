@@ -1,3 +1,4 @@
+## Notes FROM [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/1a-docker_sql/readme.md#images-containers-and-dockerfiles)
 <div align="center">
     
 # DOCKER AND SQL NOTES 
