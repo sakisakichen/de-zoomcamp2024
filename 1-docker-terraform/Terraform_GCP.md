@@ -315,31 +315,38 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "5.11.0"
+      version = "5.28.0"
     }
   }
 }
 
 provider "google" {
-  project = var.project
-  region  = var.region
+  credentials = "./terraform-runner.json"
+  project     = "dulcet-bastion-419415"
+  region      = "us-central1"
 }
 
-resource "google_storage_bucket" "taxi-bucket" {
+resource "google_storage_bucket" "terraform-demo-bucket" {
   name          = var.gcs_bucket_name
-  location      = var.gcp_storage_location
+  location      = var.location
   force_destroy = true
+
+  lifecycle_rule {
+    condition {
+      age = 1
+    }
+    action {
+      type = "AbortIncompleteMultipartUpload"
+    }
+  }
 }
 
-resource "google_bigquery_dataset" "taxi-dataset" {
+
+
+resource "google_bigquery_dataset" "demo_dataset" {
   dataset_id = var.bq_dataset_name
-  location   = var.gcp_storage_location
+  location   = var.location
 }
-```
-</details>
-
-<details>
-<summary>USING THE CREDENTIAL VARIABLE</summary> 
 
 ```terraform
 
