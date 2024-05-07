@@ -276,7 +276,7 @@ Running `terraform destroy` will look at state file and check what changes need 
 <br><br>
 ## USING VARIABLES
 You can define variables in the `variable.tf` file and reference them from main.tf
-
+https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_dataset
 <details>
 <summary>variable.tf</summary> 
 	
