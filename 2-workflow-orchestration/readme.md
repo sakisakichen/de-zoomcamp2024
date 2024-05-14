@@ -85,12 +85,12 @@ This file contains environmental variables for the project and could also includ
 #### BUILD AND RUN MAGE CONTAINER
 The container being built for this demo includes 2 services: Mage and Postgres. 
 ```cli
-docker-compose build
+docker compose build
 ```
 Followed by: <br>
 
 ```cli
-docker-compose up
+docker compose up
 ```
 *Note: the port mapping in the YAML file `"${POSTGRES_PORT}:5432"` uses 5432 on the host. If that port is already allocated to another Postgres container, it will cause a conflict.* 
 <br>
