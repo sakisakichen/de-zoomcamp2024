@@ -615,7 +615,9 @@ Triggers are what schedule workflows in mage.
 You can trigger workflows:
 - based on an event
 - on a schedule
-- from an api webhook 
+- from an api webhook
+- ![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/6afe0099-000d-4ba9-bf3f-e2b9f1ec211c)
+
 <br>
 <br>
 <hr/>
