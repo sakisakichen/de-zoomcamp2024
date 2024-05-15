@@ -617,6 +617,7 @@ You can trigger workflows:
 - on a schedule
 - from an api webhook
 - ![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/6afe0099-000d-4ba9-bf3f-e2b9f1ec211c)
+- ![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/66d4e098-b7f5-4eee-82d1-2296fcc135c4)
 
 <br>
 <br>
