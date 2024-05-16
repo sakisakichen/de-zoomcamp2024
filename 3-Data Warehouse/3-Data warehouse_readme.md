@@ -145,6 +145,8 @@ FROM `nytaxi.INFORMATION_SCHEMA.PARTITIONS`
 WHERE table_name = 'yellow_tripdata_partitioned'
 ORDER BY total_rows DESC;
 ```
+![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/a55d5c03-e6b3-4853-8ce6-07b0d3dec9b5)
+
 <br>
 <br>
 
