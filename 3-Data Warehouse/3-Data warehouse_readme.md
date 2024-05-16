@@ -452,7 +452,7 @@ FROM de-project-datatalksclub.ny_taxi.partitioned_green_tripdata WHERE fare_amou
 Running the following SQL code will build and train the model using the training data set. 
 ```sql
 -- CREATE MODEL WITH DEFAULT SETTING
-CREATE OR REPLACE MODEL `taxi-rides-ny.nytaxi.tip_model`
+CREATE OR REPLACE MODEL 'de-project-datatalksclub.ny_taxi.tip_model'
 OPTIONS
 (model_type='linear_reg',
 input_label_cols=['tip_amount'],
@@ -460,7 +460,7 @@ DATA_SPLIT_METHOD='AUTO_SPLIT') AS
 SELECT
 *
 FROM
-`taxi-rides-ny.nytaxi.yellow_tripdata_ml`
+'de-project-datatalksclub.ny_taxi.partitioned_green_tripdata_ml'
 WHERE
 tip_amount IS NOT NULL;
 ```
