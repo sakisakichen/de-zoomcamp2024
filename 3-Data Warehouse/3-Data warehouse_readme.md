@@ -424,9 +424,10 @@ One-hot encoding avoids this issue by transforming the categorical column into N
 
 In this example the integer data type of the categorical columns is cast to string so that BigQuery will handle the encoding of these columns as part of the automatic feature engineering step. 
 ```sql
+
 -- CREATE A ML TABLE WITH APPROPRIATE TYPE
-CREATE OR REPLACE TABLE `taxi-rides-ny.nytaxi.yellow_tripdata_ml` (
-`passenger_count` INTEGER,
+CREATE OR REPLACE TABLE `de-project-datatalksclub.ny_taxi.partitioned_green_tripdata_ml` (
+`passenger_count` FLOAT64,
 `trip_distance` FLOAT64,
 `PULocationID` STRING,
 `DOLocationID` STRING,
@@ -437,7 +438,7 @@ CREATE OR REPLACE TABLE `taxi-rides-ny.nytaxi.yellow_tripdata_ml` (
 ) AS (
 SELECT passenger_count, trip_distance, cast(PULocationID AS STRING), CAST(DOLocationID AS STRING),
 CAST(payment_type AS STRING), fare_amount, tolls_amount, tip_amount
-FROM `taxi-rides-ny.nytaxi.yellow_tripdata_partitioned` WHERE fare_amount != 0
+FROM de-project-datatalksclub.ny_taxi.partitioned_green_tripdata WHERE fare_amount != 0
 );
 ```
 <br>
