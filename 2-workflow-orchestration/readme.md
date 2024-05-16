@@ -740,6 +740,8 @@ Prerequisites for deploying Mage to Google Cloud using Terraform.
 - google cloud CLI
 - google cloud permissions
 - Mage Terraform templates
+- ![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/ba32146e-5147-4687-9582-733beaf69bb5)
+
 <br>
 <br>
 <hr/>
