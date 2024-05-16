@@ -156,10 +156,10 @@ Clustering groups data based on specific attributes or criteria. Within a partit
 It is best to create clusters based on the attributes frequently used to query the data.  
 ```sql
 -- Creating a partition and cluster table
-CREATE OR REPLACE TABLE taxi-rides-ny.nytaxi.yellow_tripdata_partitioned_clustered
-PARTITION BY DATE(tpep_pickup_datetime)
+CREATE OR REPLACE TABLE de-project-datatalksclub.ny_taxi.partitioned_green_tripdata_clustered
+PARTITION BY DATE(lpep_pickup_datetime)
 CLUSTER BY VendorID AS
-SELECT * FROM taxi-rides-ny.nytaxi.external_yellow_tripdata;
+SELECT * FROM de-project-datatalksclub.ny_taxi.partitioned_green_tripdata;
 ```
 <br>
 <br>
