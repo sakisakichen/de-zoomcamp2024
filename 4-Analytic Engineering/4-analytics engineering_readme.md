@@ -101,6 +101,9 @@ DIMENSION TABLES
 |`STAGING`| >>> |`PROCESSING`| >>>|`PRESENTATION`|
 |--|--|--|--|--|
 |- Raw data is imported into the data warehouse<br> - Data is not meant to be exposed to others||- Data is transformed to data models<br>- focuses on efficiency and ensuring standards|| Data is exposed to end users| 
+![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/319b5314-4868-4dc7-8bb3-9effe0e01548)
+
+
 
 </div>
 <br>
