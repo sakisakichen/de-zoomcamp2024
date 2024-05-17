@@ -106,7 +106,8 @@ DIMENSION TABLES
 <br>
 <br>
 <hr/>
-![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/ef646d5c-6014-49ab-ba27-7021f2f0c912)
+![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/b8331301-13d5-44db-a314-49bf6790015b)
+
 
 ## WHAT IS DBT 
 dbt, data build tool, is a transformation tool that allows anyone with SQL knowledge to deploy analytics code following software engineering best practices like modularity, portability, CI/CD, and documentation. 
