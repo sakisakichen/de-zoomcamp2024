@@ -111,6 +111,8 @@ DIMENSION TABLES
 
 ## WHAT IS DBT 
 dbt, data build tool, is a transformation tool that allows anyone with SQL knowledge to deploy analytics code following software engineering best practices like modularity, portability, CI/CD, and documentation. 
+DBT 簡介
+DBT，data build tool，讓使用者只需要會 SELECT 就能在資料庫中建立ㄧ張張的table/view。每建立一張 table/view，就形同於做一次 transformation。透過一張張table/view的建立，就能將原始資料逐步轉換，最後變成能讓 stakeholder 直接使用、回答商業問題的資料集。
 <br>
 <br>
 <div align = "center">
