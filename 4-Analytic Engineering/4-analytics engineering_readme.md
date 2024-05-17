@@ -106,7 +106,7 @@ DIMENSION TABLES
 <br>
 <br>
 <hr/>
-![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/b8331301-13d5-44db-a314-49bf6790015b)
+-![image](https://github.com/sakisakichen/de-zoomcamp2024/assets/72574733/b8331301-13d5-44db-a314-49bf6790015b)
 
 
 ## WHAT IS DBT 
