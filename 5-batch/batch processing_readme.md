@@ -716,7 +716,7 @@ list(df.itertuples())
 <hr/>
 
 ## SPARK IN THE CLOUD
-
+youtube 5.6.1  
 #### CONNECTING TO GCS FROM LOCAL SPARK
 When you want to connect Spark to Google Cloud services, such as Google Cloud Storage (GCS) or BigQuery, you need additional libraries or connectors that provide the necessary functionality to interact with these services. The connector is packaged in a JAR (Java ARchive) file, which contains the necessary Java classes and dependencies to enable Spark to communicate with the Google Cloud services. 
 
