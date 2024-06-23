@@ -336,6 +336,7 @@ df \
 <hr/>
 
 ## SPARK AND SQL 
+youtube 5.3.4
 In order to use SQL queries on DataFrames in Spark, the DataFrame needs to be registered as a temporary view or table. 
 - .registerTempTable or .registerTempView
 - .createOrReplaceTempTable or .createOrReplaceTempView
@@ -406,6 +407,7 @@ _(see [Spark Architecture](#spark-architecture)  above)_
 <br>
 
 #### SPARK IMPLEMENTATION OF GROUP BY 
+youtube 5.4.2
 The following steps describe sparks workflow for implementing the this GROUP BY. 
 ```python
 df_green_revenue = spark.sql("""
@@ -445,7 +447,7 @@ ORDER BY
 <br>
 
 #### SPARK IMPLEMENTATION OF JOINS
-
+youtube 5.4.3
 The following steps describe sparks workflow for implementing this OUTER JOIN on 2 Columns. 
 ```python
 df_join = df_green_revenue_tmp.join(df_yellow_revenue_tmp, on = ['hour', 'zone'], how='outer')
