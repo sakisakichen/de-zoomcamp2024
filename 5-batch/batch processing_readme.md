@@ -477,6 +477,8 @@ In Spark, broadcasting is used to optimize join operations between a large and s
 <hr/>
 
 ## RESILIENT DISTRIBUTED DATASETS
+
+youtube 5.5  
 Earlier versions of Spark relied heavily on RDDs (Resilient Distributed Datasets), which represent distributed unstructured collections of objects. DataFrames, introduced later, provide a higher-level abstraction built on top of RDDs. They offer structured data with a defined schema, simplifying data manipulation tasks. While DataFrames are more commonly used due to their ease of use, RDDs offer flexibility and control over data processing workflows. 
 
 
