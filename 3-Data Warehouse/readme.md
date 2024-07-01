@@ -1,4 +1,6 @@
-## The Note is from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/3a-data-warehouse/readme.md?plain=1)
+## [3-Data warehouse](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/03-data-warehouse)  
+
+Note from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/3a-data-warehouse/readme.md?plain=1)
 
 <div align="center">
     
