@@ -1,3 +1,4 @@
+the note from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/README.md)
 # DataTalks Data Engineering ZoomCamp 2024 
 This repo contains my notes and homework assignments for the 2024 [Data Talks Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main)
 The final project for this course can be found in this repo [FINAL PROJECT TBD]()
