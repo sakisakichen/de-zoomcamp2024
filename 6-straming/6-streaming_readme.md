@@ -1,5 +1,6 @@
+notes from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/6-streaming/readme.md)   
 <div align="center">
-    
+ 
 # KAFKA STREAMING
 (*for Linux*)
 <hr />
