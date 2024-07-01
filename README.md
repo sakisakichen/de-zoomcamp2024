@@ -120,3 +120,9 @@ MODULE 6:  [Streaming with Kafka](https://github.com/sakisakichen/de-zoomcamp202
   - 
 </details>
 
+<details>
+<summary> General course-related questions </summary>
+  
+  - [Data Engineering Zoomcamp FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit)
+  - 
+</details>
