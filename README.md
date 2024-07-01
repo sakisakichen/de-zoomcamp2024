@@ -8,7 +8,7 @@ This repo contains my notes and homework assignments for the 2024 [Data Talks Da
 
 ## NOTES 
 MODULE 1:  [Docker & SQL](https://github.com/sakisakichen/de-zoomcamp2024/tree/main/1-docker-terraform)  <br>
-MODULE 2:  [Orchestration with Mage](https://github.com/sakisakichen/de-zoomcamp2024/tree/main/2-workflow-orchestrationhttps://github.com/inner-outer-space/de-zoomcamp-2024/tree/main/2-workflow-orchestration) <br>
+MODULE 2:  [Orchestration with Mage](https://github.com/sakisakichen/de-zoomcamp2024/blob/main/2-workflow-orchestration/readme.md) <br>
 MODULE 3:  [Data Warehouses with BigQuery](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/3a-data-warehouse/readme.md) <br>
 MODULE 4:  [Analytics Engineering with dbt](https://github.com/inner-outer-space/de-zoomcamp-2024/tree/main/4-analytics-engineering) <br>
 MODULE 5:  [Batch with Spark](https://github.com/inner-outer-space/de-zoomcamp-2024/tree/main/5-batch) <br>
