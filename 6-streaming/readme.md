@@ -1,3 +1,5 @@
+## [Week 6: Stream Processing](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/06-streaming)
+
 notes from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/6-streaming/readme.md)   
 <div align="center">
  
