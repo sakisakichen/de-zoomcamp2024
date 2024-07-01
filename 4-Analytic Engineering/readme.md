@@ -1,5 +1,6 @@
-## NOTES FROM 
-[INNER-OUTER-SPACE](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/4-analytics-engineering/readme.md)  
+## [4-analytics engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/04-analytics-engineering/README.md)
+ 
+ NOTES FROM [INNER-OUTER-SPACE](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/4-analytics-engineering/readme.md)  
 <div align="center">
     
 # ANALYTICS ENGINEERING
