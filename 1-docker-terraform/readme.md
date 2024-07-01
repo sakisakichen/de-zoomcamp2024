@@ -1,3 +1,6 @@
+## [01-docker-terraform](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform)  
+
+note from [inner-outer-space](https://github.com/inner-outer-space/de-zoomcamp-2024/blob/main/1a-docker_sql/readme.md)
 <div align="center">
     
 # DOCKER AND SQL NOTES 
